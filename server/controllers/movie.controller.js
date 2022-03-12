@@ -9,7 +9,7 @@ module.exports = {
                 res.json(allMovies)
             })
             .catch((err)=>{
-                console.log("findAllMessages has failed");
+                console.log("findAllMovies has failed");
                 res.json({message: "Something went wrong with findAll", error: err})
             })
     },
